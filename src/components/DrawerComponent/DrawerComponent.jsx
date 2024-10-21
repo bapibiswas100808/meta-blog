@@ -55,7 +55,7 @@ const DrawerComponent = () => {
             return (
               <Link key={idx} href={routePath} passHref>
                 <ListItemButton
-                  component="a"
+                  component=""
                   selected={isActive}
                   sx={{
                     backgroundColor: isActive ? "#e0f7fa" : "inherit",
