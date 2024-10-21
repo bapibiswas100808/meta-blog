@@ -1,0 +1,74 @@
+[
+  {
+    "buttonText": "Technology",
+    "headerText": "The Impact of Technology on the Workplace",
+    "writerName": "Jason Francisco",
+    "date": "10 August, 2022",
+    "image": "https://placehold.it/360x240",
+    "writerImage": "https://picsum.photos/100/100"
+  },
+  {
+    "buttonText": "Business",
+    "headerText": "The Future of Business in a Digital Age: Adapt or Perish",
+    "writerName": "Emily Turner",
+    "date": "15 September, 2022",
+    "image": "https://placehold.it/360x240",
+    "writerImage": "https://picsum.photos/100/100"
+  },
+  {
+    "buttonText": "Health",
+    "headerText": "How Technology is Revolutionizing",
+    "writerName": "Mark Johnson",
+    "date": "20 October, 2022",
+    "image": "https://placehold.it/360x240",
+    "writerImage": "https://picsum.photos/100/100"
+  },
+  {
+    "buttonText": "Science",
+    "headerText": "Exploring the Latest Scientific Breakthroughs",
+    "writerName": "Sara Miles",
+    "date": "5 November, 2022",
+    "image": "https://placehold.it/360x240",
+    "writerImage": "https://picsum.photos/100/100"
+  },
+  {
+    "buttonText": "Travel",
+    "headerText": "The Role of Technology in Modern Travel Experiences",
+    "writerName": "Lucas Bailey",
+    "date": "12 November, 2022",
+    "image": "https://placehold.it/360x240",
+    "writerImage": "https://picsum.photos/100/100"
+  },
+  {
+    "buttonText": "Education",
+    "headerText": "How Technology is Shaping the Future of Education",
+    "writerName": "Olivia Smith",
+    "date": "19 November, 2022",
+    "image": "https://placehold.it/360x240",
+    "writerImage": "https://picsum.photos/100/100"
+  },
+  {
+    "buttonText": "Finance",
+    "headerText": "The Evolution of FinTech: What You Need to Know",
+    "writerName": "Michael Lee",
+    "date": "25 November, 2022",
+    "image": "https://placehold.it/360x240",
+    "writerImage": "https://picsum.photos/100/100"
+  },
+  {
+    "buttonText": "Entertainment",
+    "headerText": "How Technology is Transforming ",
+    "writerName": "Jessica Park",
+    "date": "1 December, 2022",
+    "image": "https://placehold.it/360x240",
+    "writerImage": "https://picsum.photos/100/100"
+  },
+  {
+    "buttonText": "Lifestyle",
+    "headerText": "The Role of Tech in Enhancing Lifestyle",
+    "writerName": "David Adams",
+    "date": "8 December, 2022",
+    "image": "https://placehold.it/360x240",
+    "writerImage": "https://picsum.photos/100/100"
+  }
+]

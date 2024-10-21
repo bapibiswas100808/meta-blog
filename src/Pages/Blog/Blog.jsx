@@ -2,14 +2,13 @@ import Advertisement from "@/components/Advertisement/Advertisement";
 import Banner from "@/components/Banner/Banner";
 import CardComponent from "@/components/CardComponent/CardComponent";
 import { Button, Grid, Typography } from "@mui/material";
-import { Box, Container } from "@mui/system";
-import React from "react";
-import blogs from "../../../src/assets/blogs.json";
+import { Box, width } from "@mui/system";
 import Image from "next/image";
+import blogs from "../../../src/assets/blogs.json";
 
-const Homepage = () => {
+const Blog = () => {
   return (
-    <>
+    <div>
       {/* Banner */}
       <Box sx={{ position: "relative", marginBottom: "150px" }}>
         <Banner
@@ -19,15 +18,28 @@ const Homepage = () => {
         />
         <Box
           sx={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            height: "100%",
+            width: "100%",
+            // margin: { xs: "0 20px", sm: "0 40px" },
+            backgroundColor: "rgba(131, 131, 131, 0.5)",
+            // borderRadius: "15px",
+            zIndex: 1,
+          }}
+        ></Box>
+        <Box
+          sx={{
             maxHeight: { sm: "320px", xs: "200px" },
             maxWidth: { sm: "600px", xs: "330px" },
             padding: { sm: "40px", xs: "10px" },
-            backgroundColor: "white",
             position: "absolute",
-            bottom: "-60px",
-            left: { sm: "80px", xs: "20px" },
-            boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.1)",
+            bottom: "0px",
+            left: "20px",
             borderRadius: "15px",
+            zIndex: "10",
           }}
         >
           <Button
@@ -41,6 +53,7 @@ const Homepage = () => {
               fontWeight: "bold",
               fontSize: { sm: "36px", xs: "18px" },
               lineHeight: 1.2,
+              color: "white",
             }}
           >
             The Impact of Technology on the Workplace: How Technology is
@@ -70,7 +83,7 @@ const Homepage = () => {
                 style={{ borderRadius: "50%" }}
               />
               <Typography
-                sx={{ color: "gray", fontSize: { sm: "16px", xs: "12px" } }}
+                sx={{ color: "white", fontSize: { sm: "16px", xs: "12px" } }}
               >
                 Jason Francisco
               </Typography>
@@ -78,7 +91,7 @@ const Homepage = () => {
             <Box>
               <Typography
                 sx={{
-                  color: "gray",
+                  color: "white",
                   fontSize: { sm: "16px", xs: "12px" },
                   marginTop: "15px",
                 }}
@@ -89,10 +102,7 @@ const Homepage = () => {
           </Box>
         </Box>
       </Box>
-      {/* Advertisement */}
-      <Box>
-        <Advertisement />
-      </Box>
+
       {/* Latest Post */}
       <Box sx={{ margin: "0 20px" }}>
         <Typography
@@ -126,7 +136,7 @@ const Homepage = () => {
           sx={{ display: "flex", justifyContent: "center", margin: "40px 0" }}
         >
           <Button size="medium" sx={{}} variant="outlined">
-            See All Post
+            Load All Post
           </Button>
         </Box>
       </Box>
@@ -134,8 +144,8 @@ const Homepage = () => {
       <Box sx={{ paddingBottom: "50px", paddingTop: "10px" }}>
         <Advertisement />
       </Box>
-    </>
+    </div>
   );
 };
 
-export default Homepage;
+export default Blog;

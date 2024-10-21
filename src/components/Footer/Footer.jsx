@@ -245,7 +245,12 @@ const Footer = () => {
             </Typography>
           </Typography>
         </Box>
-        <Typography sx={{ marginTop: { xs: "10px", lg: "0px" } }}>
+        <Typography
+          sx={{
+            marginTop: { xs: "10px", lg: "0px" },
+            fontSize: { sm: "18px", xs: "15px" },
+          }}
+        >
           Terms of Use | Privacy Policy | Cookie Policy
         </Typography>
       </Box>

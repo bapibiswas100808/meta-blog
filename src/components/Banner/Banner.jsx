@@ -15,8 +15,9 @@ const Banner = ({ height = "400px", width = "100%", bgImage }) => {
         justifyContent: "center",
         textAlign: "center",
         color: "white",
-        margin: { sm: "20px", xs: "10px" },
-        borderRadius: "15px",
+        // margin: "20px 0",
+        // margin: { sm: "20px", xs: "10px" },
+        // borderRadius: "15px",
       }}
     >
       <Box>
