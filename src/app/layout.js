@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Meta Blog",
+  title: "Home || MetaBlog",
   description: "Generate Your Blog Here",
 };
 
