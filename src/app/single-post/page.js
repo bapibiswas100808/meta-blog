@@ -1,8 +1,10 @@
+const { default: SinglePage } = require("@/Pages/SinglePage/SinglePage");
+
 const page = () => {
   return (
-    <div>
-      <h2>This is single post</h2>
-    </div>
+    <>
+      <SinglePage />
+    </>
   );
 };
 

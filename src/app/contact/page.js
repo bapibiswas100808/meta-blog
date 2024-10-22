@@ -1,8 +1,10 @@
+import Contact from "@/Pages/Contact/Contact";
+
 const page = () => {
   return (
-    <div>
-      <h2>This is contact</h2>
-    </div>
+    <>
+      <Contact />
+    </>
   );
 };
 
